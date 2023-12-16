@@ -17,4 +17,4 @@ Página responsiva!
 ![Logo CSS3](image/readme/css-3.png)
 ![Logo JavaScript](image/readme/js.png)
 
-[Portfólio](https://wesleyanjos1996.github.io): Wesley dos Anjos
+[Portfólio](https://wesleyanjos1996.github.io): __Wesley dos Anjos__
