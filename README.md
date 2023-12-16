@@ -4,10 +4,10 @@ Projeto do curso de HTML5 e CSS3 de Nodestudiotreinamento.
 
 ## Linguagens utilizadas:
 
-* HTML5
-* CSS3
-* JavaScript
-* Utilização do Materialize e JQuery
+* __HTML5__
+* __CSS3__
+* __JavaScript__
+* __Utilização do Materialize e JQuery__
 
 ## Adicionais:
 
