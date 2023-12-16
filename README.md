@@ -1,6 +1,6 @@
 # Lading Page Centro Boa Forma
 
-Projeto do curso de HTML5 e CSS3 de Nodestudiotreinamento.
+Projeto do curso de __HTML5__ e __CSS3__ de __*Nodestudiotreinamento*__.
 
 ## Linguagens utilizadas:
 
