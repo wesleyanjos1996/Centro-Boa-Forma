@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 /* RESET HTML */
-html, 
+html,
 body {
     height: 100%;
 }
 
 .bloco {
-    min-height: 100%; 
+    min-height: 100%;
     padding-top: 94px;
 }
 
@@ -24,63 +24,71 @@ body {
 }
 
 .logo-img {
-    width: 100px; 
+    width: 100px;
     margin-top: 15px;
 }
 
 /* MENU */
 .navbar {
-    background-color: transparent; 
+    background-color: transparent;
     transition: background 0.5s linear;
 }
 
 .navbar ul a:hover {
-    background-color: transparent; 
+    background-color: transparent;
     color: #2dc7d0;
 }
 
 .nav-color {
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     transition: background 0.5s linear;
 }
 
 /* BANNER */
 .home {
-    background-image: url("../image/bg.jpg"); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: mudarbg 20s infinite;
 }
 
 .banner h2 {
-    font-size: 2.5rem; 
-    font-weight: 900; 
+    font-size: 2.5rem;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
 .banner p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     line-height: 1.8rem;
 }
 
 /* HOME - ANIMATION */
 @keyframes mudarbg {
-    40%{background-image: url('../image/bg2.jpg');}
-    80%{background-image: url('../image/bg3.jpg');}
-    100%{background-image: url('../image/bg.jpg');}
+    40% {
+        background-image: url('../image/bg2.jpg');
+    }
+
+    80% {
+        background-image: url('../image/bg3.jpg');
+    }
+
+    100% {
+        background-image: url('../image/bg.jpg');
+    }
 }
 
 /* TITULO & PARAGRAFO */
 .titulo {
-    font-size: 2rem; 
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
 .titulo::after {
-    content: ""; 
-    display: block; 
-    width: 100px; 
-    border-top: 1px solid #2dc7d0; 
+    content: "";
+    display: block;
+    width: 100px;
+    border-top: 1px solid #2dc7d0;
     margin: 15px auto;
 }
 
@@ -94,12 +102,12 @@ body {
 }
 
 .sobre p {
-    line-height: 1.8rem; 
+    line-height: 1.8rem;
     text-align: justify;
 }
 
 .sobre .missao-visao-valores {
-    padding: 20px 0; 
+    padding: 20px 0;
     margin-top: 35px;
 }
 
@@ -108,8 +116,8 @@ body {
 }
 
 .sobre .missao-visao-valores h3 {
-    font-size: 1.5rem; 
-    color: #ffffff; 
+    font-size: 1.5rem;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -129,9 +137,9 @@ body {
 
 /* UNIDADES */
 .unidades {
-    background-image: url("../image/bg-unidades.jpg"); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-image: url("../image/bg-unidades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -145,8 +153,8 @@ body {
 }
 
 .contato h4 {
-    font-size: 1.2rem; 
-    text-transform: uppercase; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
     font-weight: 900;
 }
 
@@ -155,19 +163,19 @@ body {
 }
 
 .contato .mapa iframe {
-    width: 100%; 
-    min-height: 560px; 
+    width: 100%;
+    min-height: 560px;
     border: none;
 }
 
 .contato .informacoes {
-    background-image: url("../image/textura2.png"); 
-    min-height: 560px; 
+    background-image: url("../image/textura2.png");
+    min-height: 560px;
     padding: 30px;
 }
 
 .contato .formulario {
-    min-height: 560px; 
+    min-height: 560px;
     padding: 30px;
 }
 
@@ -181,15 +189,15 @@ body {
 }
 
 .depoimentos h4 {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
 /* FOOTER */
 .rodape {
-    background-image: url("../image/bg-rodape.jpg"); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-image: url("../image/bg-rodape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 0;
 }
 
@@ -199,15 +207,15 @@ nav.nav-extended .nav-wrapper {
 }
 
 .navbar-fixed {
-    position: absolute; 
+    position: absolute;
     height: 94px;
 }
 
-nav, 
-nav i, 
-nav[class^="mdi-"], 
-nav[class*="mdi-"], 
-nav i.material-icons, 
+nav,
+nav i,
+nav[class^="mdi-"],
+nav[class*="mdi-"],
+nav i.material-icons,
 nav a.button-colapse i {
     height: 94px;
     line-height: 94px;
@@ -218,11 +226,11 @@ nav a.button-colapse i {
 }
 
 .side-nav li a {
-    color: #ffffff; 
-    font-weight: 100; 
-    font-size: 1.2rem; 
-    line-height: 58px; 
-    letter-spacing: 2px; 
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 58px;
+    letter-spacing: 2px;
     word-spacing: 2px;
 }
 
@@ -238,7 +246,7 @@ nav a.button-colapse i {
     color: #ffffff;
 }
 
-.tabs .tab a:hover, 
+.tabs .tab a:hover,
 .tabs .tab a.active {
     color: #2dc7d0;
 }
@@ -278,7 +286,7 @@ nav a.button-colapse i {
     }
 
     .container {
-        width: 90%; 
+        width: 90%;
         max-width: 1920px;
     }
 }

@@ -17,7 +17,6 @@
     <meta name="descreption" content="O melhor centro de saúde de todo o Brasil.">
     <meta name="author" content="Wesley dos Anjos">
 </head>
-
 <body>
     <!--START HEADER-->
     <header>
@@ -50,7 +49,6 @@
         <!--END MENU-->
     </header>
     <!--END HEADER-->
-
     <!--START SECTION-HOME-->
     <section class="home bloco scrollspy" id="home">
         <!--START BANNER-->
@@ -69,7 +67,6 @@
         <!--END BANNER-->
     </section>
     <!--END SECTION-HOME-->
-
     <!--START SECTION-SOBRE-->
     <section class="sobre bloco scrollspy" id="sobre">
         <div class="row container">
@@ -120,7 +117,6 @@
         </div>
     </section>
     <!--END SECTION-SOBRE-->
-
     <!--START SECTION-SERVICO-->
     <section class="servicos bloco scrollspy" id="servicos">
         <div class="row container">
@@ -172,7 +168,6 @@
             </div>
             <!--END MODAL-PILATES-->
             <!--END CARD-PILATES-->
-
             <!--START CARD-NUTRICAO-->
             <article class="col s12 m6 l3">
                 <div class="card">
@@ -198,7 +193,6 @@
             </div>
             <!--END MODAL-NUTRICAO-->
             <!--END CARD-NUTRICAO-->
-
             <!--START CARD-FISIOTERAPIA-->
             <article class="col s12 m6 l3">
                 <div class="card">
@@ -224,7 +218,6 @@
             </div>
             <!--END MODAL-FISIOTERAPIA-->
             <!--END CARD-FISIOTERAPIA-->
-
             <!--START CARD-FUNCIONAL-->
             <article class="col s12 m6 l3">
                 <div class="card">
@@ -412,7 +405,6 @@
         </div>
     </section>
     <!--END SECTION-UNIDADES-->
-
     <!--START SECTION-CONTATO-->
     <section class="contato bloco scrollspy" id="contato">
         <div class="row container">
@@ -465,7 +457,6 @@
         </div>
     </section>
     <!--END SECTION-CONTATO-->
-
     <!--START SECTION-DEPOIMENTOS-->
     <div class="depoimentos blue-logo">
         <div class="row container">
@@ -511,7 +502,6 @@
         </div>
     </div>
     <!--END SECTION-DEPOIMENTOS-->
-
     <!--START FOOTER-->
     <footer class="rodape">
         <div class="row container center">
@@ -520,11 +510,6 @@
         </div>
     </footer>
     <!--END FOOTER-->
-
-    <!--Import jQuery before materialize.js-->
-    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
-    <!--<script src="js/jquery.js"></script>-->
-
     <!-- IMPORT CDN GOOGLE JQUERY VERSION-1, VERSION-2 & VERSION-3-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
@@ -575,7 +560,7 @@
             }
         })
     </script>
-    <!-- <?php
+    <?php
     if (isset($_GET['status'])) {
         if ($_GET['status'] == "sucesso") {
             echo "<script>Materialize.toast('Enviado comsucesso!', 4000);</script>";
@@ -583,7 +568,6 @@
             echo "<script>Materialize.toast('Erro ao enviar!', 4000);</script>";
         }
     }
-    ?> -->
+    ?>
 </body>
-
 </html>
